@@ -37,4 +37,4 @@ async function displayMessage() {
     }
 }
 
-window.onload = displayMessage()
+window.onload = displayMessage
