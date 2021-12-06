@@ -11,6 +11,19 @@
         {
             "route": "/login",
             "rewrite": "/.auth/login/google"
+        },
+        {
+            "route": "/logout",
+            "rewrite": "/.auth/logout"
+        },
+        {
+            "route": "/books",
+            "rewrite": "/books.html",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/books.html",
+            "allowedRoles": ["authenticated"]
         }
     ]
 }
