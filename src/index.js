@@ -37,4 +37,4 @@ async function displayMessage() {
     }
 }
 
-displayMessage();
+window.onload = displayMessage()
